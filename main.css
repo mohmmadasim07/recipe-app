@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 1000px;
+  background-color: #d4d0d0;
+  font-family: "Noto Sans JP", sans-serif;
+  letter-spacing: 2px;
+  height: fit-content;
+}
+.container {
+  width: 100%;
+  border-radius: 20px;
+  height: 1000px;
+
+  padding: 60px;
+  margin: 15px 10%;
+
+  /* background: linear-gradient(to left, #0f2027, #203a43, #2c5364); */
+  background-color: #091827;
+  color: whitesmoke;
+}
+.container img {
+  width: 250px;
+  height: 250px;
+  margin-left: 35%;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-top: -10%;
+}
+.one {
+  display: flex;
+  flex-direction: row;
+}
+input {
+  width: 40%;
+  font-size: 30px;
+  margin: 0 10px 40px 40px;
+}
+h2 {
+  margin: 40px 0;
+  font-size: 40px;
+  width: 40%;
+}
+h3 {
+  color: #ff6a00;
+}
+aside {
+  width: 33%;
+  height: 880px;
+  border-radius: 20px;
+  padding: 30px 20px;
+  float: right;
+  margin-top: -420px;
+  color: black;
+  background-color: white;
+}
+aside ul li {
+  padding-top: 10px;
+  list-style: none;
+  font-size: 20px;
+  padding-left: 20px;
+}
+p {
+  float: left;
+  width: 50%;
+  margin: 50px 0 0 0;
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    width: 500px;
+  }
+  h2 {
+    width: 100%;
+  }
+  .container img {
+    margin: 20px 0;
+  }
+  .container {
+    width: 400px;
+    height: 2500px;
+    margin: 0;
+  }
+  aside {
+    width: 400px;
+    margin-top: 15%;
+  }
+  p {
+    width: 100%;
+  }
+}
